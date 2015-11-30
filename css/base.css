@@ -170,7 +170,6 @@ main {
   Section Paralax
 ============================================================ */
 .web-img {
-
   width: 100%;
   height: auto;
   margin: 10px auto 20px auto;
@@ -181,19 +180,52 @@ main {
   margin: 10px auto 20px auto;
   display: inline;
 }
-iframe {
+.bandcamp {
   width: 300px;
   height: 420px;
   display: inline; 
 }
+#vid {
+  margin-bottom: 30px;
+}
+.yt-player li {
+  margin: 10px auto 20px auto;
+  display: inline;
+}
+.youtube {
+  width:450px;
+  height:253px;
+  display: inline;
+}
 @media all and (max-width: 600px) {
-  iframe {
+  .hidden-600{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .parallax{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+
+  .bandcamp {
     width: 240px;
     height: 382px;
     margin: 10px auto 20px auto;
     display: block;
   }
   .bc-player li {
+  margin: 10px auto 20px auto;
+  display: block;
+  }
+  .youtube {
+    width: 240px;
+    height: 135px;
+    margin: 10px auto 20px auto;
+    display: block;
+  }
+  .yt-player li {
   margin: 10px auto 20px auto;
   display: block;
   }
